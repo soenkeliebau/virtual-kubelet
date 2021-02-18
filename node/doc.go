@@ -57,7 +57,7 @@ depending on your configuration.
 For more fine-grained control over the API, see the `node/api` package which
 only implements the HTTP handlers that you can use in whatever way you want.
 
-This uses open-cenesus to implement tracing (but no internal metrics yet) which
+This uses open-census to implement tracing (but no internal metrics yet) which
 is propagated through the context. This is passed on even to the providers.
 */
 package node
